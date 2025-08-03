@@ -1,0 +1,65 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MindSprint 🧠</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div id="particle-bg"></div>
+
+  <main class="main-container">
+    <!-- Start Screen -->
+    <section id="start-screen" class="screen active">
+      <h1 class="app-title">🧠 MindSprint</h1>
+      <p>Select a category to begin your quiz:</p>
+      <select id="category-select">
+        <option value="" disabled selected>Select Category</option>
+        <option value="science">Science</option>
+        <option value="history">History</option>
+        <option value="technology">Technology</option>
+      </select>
+      <button id="start-btn">Start Quiz</button>
+    </section>
+
+    <!-- Quiz Box -->
+    <section id="quiz-box" class="screen hidden">
+      <div class="question-header">
+        <div class="progress-container">
+          <div id="progress-bar"></div>
+        </div>
+        <div id="timer">30</div>
+      </div>
+      <div id="question-text">Question text here...</div>
+      <div class="options-container">
+        <button class="option-btn" data-index="0">a:</button>
+        <button class="option-btn" data-index="1">b:</button>
+        <button class="option-btn" data-index="2">c:</button>
+        <button class="option-btn" data-index="3">d:</button>
+      </div>
+    </section>
+
+    <!-- Result Screen -->
+    <section id="result-screen" class="screen hidden">
+      <h2>Your Score</h2>
+      <p id="score-output">0 / 0</p>
+      <button id="restart-btn">Restart Quiz</button>
+    </section>
+    <section class="history-section">
+        <h2>📜 Quiz History</h2>
+        <ul id="quiz-history-list"></ul>
+    </section>
+</main>
+
+  <!-- Audio Effects -->
+  <audio id="tick-sound" src="assets/audio/tick.mp3" preload="auto"></audio>
+  <audio id="correct-sound" src="assets/audio/correct.mp3" preload="auto"></audio>
+  <audio id="wrong-sound" src="assets/audio/wrong.mp3" preload="auto"></audio>
+  <audio id="lock-sound" src="assets/audio/lock.mp3" preload="auto"></audio>
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
