@@ -55,11 +55,12 @@ https://www.loom.com/share/e262447436a54d2e90f24b137c301abb?sid=9aeef457-60dd-45
 
 ---
 
-🧠 MindSprint Previews
+## 🧠 MindSprint Previews
 
 🧑‍💻 Code Overview
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d8da9ae5-e22b-4df3-98df-aee8d2d3c145" />
+
 
 🧠 MindSprint Webpage
 
@@ -83,9 +84,15 @@ https://www.loom.com/share/e262447436a54d2e90f24b137c301abb?sid=9aeef457-60dd-45
 ---
 
 ## 👨‍💻 Author
-**Panvit Banda**  
-🎓 Final Year B.Tech AIML Student
-🔗 [LinkedIn](https://linkedin.com/in/panvitbanda) | [GitHub](https://github.com/PanvitBanda)
+
+**Panvit Banda**
+🎓 B.Tech Final Year Student | Web & AI Enthusiast
+📬 [LinkedIn](https://www.linkedin.com/in/panvit-banda/)
+💻 [GitHub](https://github.com/PanvitBanda)
+
+---
 
 ## 📄 License
 This project is open-source and available under the [MIT License](./MindSprint/LICENSE).
+
+---
